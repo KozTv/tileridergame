@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: "pixar_tworegular";
+    font-weight: normal;
+    font-size: 85px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+b.darkColor,b.lightColor {
+    font-family: "pixar_tworegular";
+    font-weight: normal;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+b.darkColor{
+    color: #555;
+}
+b.lightColor {
+    color: #fff;
+}
+
+h3 {
+    font-family: "pixar_tworegular";
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+#slide1, #slide2, #slide3 {
+    width: 100%;
+    min-width: 640px;
+}
+
+#slide1 {
+    background: url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 680px;
+    margin: 0;
+    padding: 0 0 0 0;
+    background-size: cover;
+}
+
+#slide2, #slide3 {
+    background-color: #fff;
+    color: #333333;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contacts {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.contact {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.contact a,.presskit a {
+    text-decoration: none;
+}
+
+.darkColor {
+    color: #555;
+}
+
+.lightColor {
+    color: #fff;
+}
+
+.logo {
+    text-align: center;
+	margin-right: 5px;
+}
+
+.videoContent {
+    /*float:left;*/
+    width: 640px;
+    height: 384px;
+    margin: auto;
+}
+
+#ex3 {
+	width: 730px;
+	height: 133px;
+	line-height: 0px;
+	color: transparent;
+	font-size: 24px;
+	text-decoration: none;
+	font-family: "pixar_tworegular";
+	   font-weight: 300;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+#ex3:hover {
+	line-height: 16px;
+	color: #fff;
+}
+
+hr {
+    width:20%;
+    height: 2px;
+    background: black;
+    border-color: black;
+}
+
